@@ -1,0 +1,26 @@
+header {
+
+    height: 10%;
+    background: url(../images/top-background.jpg);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+nav {
+    background-color: aquamarine;
+}
+
+#imgid {
+    height: 350px;
+}
+
+#footer {
+   position: fixed;
+    left: 0;
+    bottom: 0; 
+    padding: 10px;   
+    width: 100%; 
+}

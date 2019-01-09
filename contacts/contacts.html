@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="shortcut icon" href="../images/icon.jpg" type="image/png">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../script/contacts.js"></script>
+    <noscript>
+        Sorry...JavaScript is needed to go ahead.
+    </noscript>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="../index.htm"> Главная </a>|
+        <a href="../catalog/sales.html"> Каталог </a>|
+        <a href="contacts.html"> Контактная информация </a>|
+    </nav>
+    <hr>
+    <h1>Контактная информация</h1>
+</header>
+<div id="left">
+<h3>Напишите нам</h3>
+<div id="raport">
+<p>    Доброе время суток.<br>
+    Пишет Вам ваш постоянноый клиент <span id="name_text"></span><br>
+    Тема моего обращения:  <span id="thema_text"></span><br>
+    Детали: <br><span id="det_text"></span><br> 
+    Обратная связь через почту: <span id="mail_text"></span><br> 
+</p>
+</div>
+    <form >
+            <label for="name">Имя пользователя:</label><br>
+            <input type="text"  id="name"><br>
+            <label for="thema">Тема:</label><br>
+            <input type="text"  id="thema"><br>
+            <label for="det">Описание темы:</label><br>
+            <textarea id="det"></textarea><br>
+            <label for="mail">Email:</label><br>
+            <input type="mail"  id="mail"><br>
+            <input type="button" value="Отправить" onclick="showContact()">
+    </form>
+</div> 
+<div id ="right">
+        <h3>Адрес</h3>  
+        <p id="contact"> Наш номер: 222-222-222.Мы расположены по адресу:<br>
+                         Физический адрес. Мухасранск....................<br>   
+                         Юридический смотрите на карте.
+        </p>
+        <div id="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aac9a844c738267787b7706afc111a86aac8b98be3192a825cfda2cfb2977597e&amp;width=824&amp;height=327&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+</div>
+<footer id="footer">
+    <hr>
+  &copy;  Все права защищены
+</footer>
+</body>
+</html>
