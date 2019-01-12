@@ -1,0 +1,45 @@
+body, nav{
+    background: #f8f8f8 !important;
+}
+nav > a{
+    color:red;
+    font-family: 24px Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+.descr{
+color: black;
+font-size: 18px;
+font-weight: 400;
+background: #eaeaea;
+}
+
+.short_decr {
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.wide_descr{
+    color:#484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left; 
+}
+ul{
+    /* list-style: square outside; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-image: url('../images/1leftarrow.png');
+}
+
+#name, #thema, #mail, #det {
+   width: 80%;
+   height: 20px;
+   font-size: 14px;
+   font-style: italic;
+   color: #0f0127;
+}
+#det{
+height: 50px;
+}
