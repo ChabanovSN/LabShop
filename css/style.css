@@ -1,0 +1,213 @@
+header {
+
+    height: 10%;
+    background: url(../images/top-background.jpg);
+  
+}
+header img {
+    display:block; margin:0 auto;
+    width: 50px;
+    height: 50px;
+    background: url(../images/logo.jpg);
+  }
+
+a:hover{
+    color:orchid;
+}
+
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+nav {
+    background-color: aquamarine;
+}
+
+#imgid {
+    height: 350px;
+}
+
+#sheetswitch {
+	position:absolute;
+	top:0px;
+	right:20px;
+	/* background:url('../bg_grad.jpg'); */
+	border-left:1px solid #23B2D2;
+	border-right:1px solid #23B2D2;
+	border-bottom:1px solid #23B2D2;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#sheetswitch img {
+	border:none;
+}
+
+#sheetswitch .swatch {
+	margin-right:15px;
+	display:block;
+	width:26px;
+	height:46px;
+	float:left;
+	border:1px solid white;
+}
+
+#sheetswitch .swatch_hi {
+	border:1px solid #777;
+}
+
+.sheetswitch_prev {
+	margin-right:15px;
+}
+
+.sheetswitch_next, .sheetswitch_prev {
+	float:left;
+}
+body{
+    background: url(../images/top-background.jpg);
+}
+#footer {
+   position: fixed;
+    left: 0;
+    bottom: 0; 
+    padding: 10px;   
+    width: 100%; 
+}
+
+/* продукты__________________________________________________________-- */
+
+
+#item{
+    background: url(../images/top-background.jpg);
+}
+#photo_item{
+    border: 3px solid #ddd;
+    padding: 5px;
+    height: 200px;
+    border-radius: 12px;
+  
+}
+#photo_item:hover{
+    box-shadow: 0 0 30px 1px rgba(1, 13, 17, 0.5);
+    /* border: 3px solid rgb(71, 49, 49); */
+}
+#left{
+    padding: 5px; 
+    float: left;
+     width: 20%;
+}
+#right{
+    padding: 5px; 
+    float: right;
+     width: 70%;
+}
+
+.list {
+    float: left;
+    width: 15%;
+    padding: 5px;
+}
+
+#show {
+    padding: 5px;
+    float: right;
+    width: 80%;
+    background-color: aquamarine;
+}
+
+#list_content {
+    counter-reset: li;
+    list-style: none;
+    font: 14px "Trebuchet MS", "Lucida Sans",sans-serif;
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+#list_content a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+}
+
+#list_content a:hover {
+    background: #E9E4E0;
+}
+
+#list_content a:hover:before {
+    transform: rotate(360deg);
+}
+
+#list_content a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+#table{
+    float: left;
+    border: 4px double black; 
+}
+footer{
+    width: 100%;
+    float: left;
+}
+
+
+/* contacts__________________________________________________________________ */
+
+
+
+#contact{
+    text-align: right;
+}
+#raport{
+    border-color: red rgb(75, 4, 4); 
+    border-style: solid; 
+    word-wrap: break-word;
+    background-color: azure;
+}
+
+
+#name, #thema, #mail, #det {
+    width: 75%;
+    height: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: #0f0127;
+ }
+
+ #mail:focus{
+    color: red;
+    background-color: rgb(221, 208, 20);
+
+ }
+ #thema, #det,#name{
+    text-transform: capitalize;
+ }
+ #det{
+ height: 50px;
+ 
+ }
