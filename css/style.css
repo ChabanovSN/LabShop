@@ -5,9 +5,10 @@ header, .header {
   
 }
 header img, .header img {
-    display:block; margin:0 auto;
-    width: 50px;
-    height: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: 25%;
+    width: 60px;    
     background: url(../images/logo.jpg);
   }
 
@@ -24,6 +25,13 @@ h2{
 }
 nav {
     background-color: aquamarine;
+}
+
+.container{
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #imgid {
@@ -52,7 +60,6 @@ nav {
 	margin-right:15px;
 	display:block;
 	width:26px;
-	height:46px;
 	float:left;
 	border:1px solid white;
 }
@@ -66,24 +73,44 @@ nav {
 }
 
 .sheetswitch_next, .sheetswitch_prev {
-	float:left;
-}
+    float:left;
+}   
 body{
     background: url(../images/top-background.jpg);
 }
+footer{
+    background: #23B2D2;
+    height: 10%;
+    width: 100%;
+    float: left;
+  }
 #footer {
-   position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0; 
     padding: 10px;   
     width: 100%; 
+   }
+footer p, #footer p{
+    width: 15%;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 5px;
 }
-
 /* продукты__________________________________________________________-- */
 
 
 #item{
     background: url(../images/top-background.jpg);
+}
+
+.form-style{
+    width: 58px;  
+    border: 5px solid #53687E;
+    margin-bottom: 5px;
+}
+.form-style:hover{
+  	border: 5px solid rgb(124, 9, 99);
 }
 #photo_item{
     border: 3px solid #ddd;
@@ -170,15 +197,13 @@ body{
     float: left;
     border: 4px double black; 
 }
-footer{
-    width: 100%;
-    float: left;
-}
 
 
 /* contacts__________________________________________________________________ */
 
-
+#map{
+    margin-bottom: 10%;
+}
 
 #contact{
     text-align: right;

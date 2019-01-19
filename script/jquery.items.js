@@ -79,3 +79,7 @@ $("document").ready(function() {
 		$(".swatch").eq(idx).addClass("swatch_hi");
 	}
 });
+
+function bay(){
+	alert("Вот будет сервер тогда и купишь");
+}

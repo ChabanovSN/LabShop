@@ -3,7 +3,7 @@ body, nav{
 }
 nav > a{
     color:red;
-    font-family: 24px Arial, Helvetica, sans-serif;
+    font: 24px Arial, Helvetica, sans-serif;
     font-size: 26px;
 }
 
@@ -29,7 +29,7 @@ background: #eaeaea;
 }
 ul{
     /* list-style: square outside; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style-image: url('../images/1leftarrow.png');
 }
 
